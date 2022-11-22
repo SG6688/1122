@@ -31,7 +31,7 @@
 #git clone https://github.com/fw876/helloworld package/luci-app-ssr-plus
 #git clone https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
 
-
+git clone https://git01.mediatek.com/openwrt/feeds/mtk-openwrt-feeds
 sed -i "/helloworld/d" "feeds.conf.default"
 echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
 
