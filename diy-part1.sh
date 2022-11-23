@@ -27,8 +27,8 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 
-git clone -b master --single-branch https://github.com/LGA1150/openwrt-fullconenat package/fullconenat
-git clone https://github.com/whengrun/luci-app-turboacc package/luci-app-turboacc
+#git clone -b master --single-branch https://github.com/LGA1150/openwrt-fullconenat package/fullconenat
+#git clone https://github.com/whengrun/luci-app-turboacc package/luci-app-turboacc
 
 #git clone https://github.com/fw876/helloworld package/luci-app-ssr-plus
 #git clone https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
