@@ -27,6 +27,7 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 
+git clone -b master --single-branch https://github.com/fullcone-nat-nftables/openwrt-firewall4-with-fullcone package/fullconenat
 
 #git clone https://github.com/fw876/helloworld package/luci-app-ssr-plus
 #git clone https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
