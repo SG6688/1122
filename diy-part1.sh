@@ -48,5 +48,5 @@ git clone https://github.com/sirpdboy/luci-app-advanced package/luci-app-advance
 
 
 #git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
-sed -i 's/PATCHVER:=5.10/PATCHVER:=5.15/g' target/linux/ramips/Makefile
+#sed -i 's/PATCHVER:=5.10/PATCHVER:=5.15/g' target/linux/ramips/Makefile
 #sed -i 's/KERNEL_PATCHVER:=5.10/KERNEL_PATCHVER:=5.15/g' target/linux/ramips/Makefile
