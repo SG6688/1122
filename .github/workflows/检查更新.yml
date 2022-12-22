@@ -14,7 +14,7 @@ name: 检查更新
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt
-  REPO_BRANCH: openwrt-22.03
+  REPO_BRANCH: master
   TZ: Asia/Shanghai
 
 on:
