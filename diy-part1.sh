@@ -44,7 +44,7 @@ done
 svn checkout https://github.com/coolsnowwolf/lede/trunk/tools/ucl tools/ucl
 svn checkout https://github.com/coolsnowwolf/lede/trunk/tools/upx tools/upx
 
-git clone https://github.com/sirpdboy/luci-app-advanced package/luci-app-advanced
+#git clone https://github.com/sirpdboy/luci-app-advanced package/luci-app-advanced
 
 
 #git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
