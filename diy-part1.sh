@@ -37,12 +37,12 @@
 #sed -i "/helloworld/d" "feeds.conf.default"
 #echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
 
-mkdir -p package/helloworld
-for i in "dns2socks" "microsocks" "ipt2socks" "pdnsd-alt" "redsocks2"; do \
-  svn checkout "https://github.com/immortalwrt/packages/trunk/net/$i" "package/helloworld/$i"; \
-done
-svn checkout https://github.com/coolsnowwolf/lede/trunk/tools/ucl tools/ucl
-svn checkout https://github.com/coolsnowwolf/lede/trunk/tools/upx tools/upx
+#mkdir -p package/helloworld
+#for i in "dns2socks" "microsocks" "ipt2socks" "pdnsd-alt" "redsocks2"; do \
+ # svn checkout "https://github.com/immortalwrt/packages/trunk/net/$i" "package/helloworld/$i"; \
+#done
+#svn checkout https://github.com/coolsnowwolf/lede/trunk/tools/ucl tools/ucl
+#svn checkout https://github.com/coolsnowwolf/lede/trunk/tools/upx tools/upx
 
 #git clone https://github.com/sirpdboy/luci-app-advanced package/luci-app-advanced
 
